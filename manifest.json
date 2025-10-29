@@ -1,11 +1,21 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "SHG connect",
-  "orientation": "any",
-  "scope": "/",
+  "name": "SHG Connect",
   "short_name": "SHG App",
   "start_url": "/",
-  "theme_color": "#ffffff"
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "An app to help Self-Help Groups manage their records.",
+  "icons": [
+    {
+      "src": "image 192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "image 512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
